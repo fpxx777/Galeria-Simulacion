@@ -9,33 +9,39 @@
 </head>
 
 <body>
-    <div id="my-comment">
-        <div>
-            <p>nombre:</p>
-            <input type="text" name="" id="">
-        </div>
-        <div>
-            <p>calificación</p>
-            <button class="star">✰</button>
-            <button class="star">✰</button>
-            <button class="star">✰</button>
-            <button class="star">✰</button>
-            <button class="star">✰</button>
-        </div>
-    </div>
-    <div class="comentario">
-        <div class="usuario-info">
-            <p>Nombre</p>
-            <div>
-                <p>✰</p>
+    <section id="cont-all">
+        <section id="coments">
+            <div class="comentario">
+                <div class="usuario-info">
+                    <p>Nombre</p>
+                    <div>
+                        <p>✰</p>
+                    </div>
+                </div>
+                <div class="usuario-coment">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione unde optio hic est dolorem ipsum
+                    nam,
+                    quos
+                    debitis quasi omnis exercitationem repellendus esse ipsa natus repudiandae vero culpa fugiat
+                    eveniet.
+                </div>
+                <p class="corazao">♡♥</p>
             </div>
+        </section>
+        <div id="my-comment">
+            <div class="cont-info">
+                <input placeholder="Tu Nombre" type="text" name="" id="">
+            </div>
+            <div id="start-content">
+                <button onclick="star(this)" class="star">✰</button>
+                <button onclick="star(this)" class="star">✰</button>
+                <button onclick="star(this)" class="star">✰</button>
+                <button onclick="star(this)" class="star">✰</button>
+                <button onclick="star(this)" class="star">★</button>
+            </div>
+                <input placeholder="Tu Comentario" type="text" name="" id="coment">
         </div>
-        <div class="usuario-coment">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione unde optio hic est dolorem ipsum nam, quos
-            debitis quasi omnis exercitationem repellendus esse ipsa natus repudiandae vero culpa fugiat eveniet.
-        </div>
-        <p class="corazao">♡♥</p>
-    </div>
+    </section>
 </body>
 <script src="comentarios.js">
 </script>
