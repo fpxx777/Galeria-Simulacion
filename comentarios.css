@@ -1,0 +1,61 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#tooo{
+    display: block;
+    background-color: #164863;
+    width: 700px;
+    height: 800px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+#tooo2{
+    display: flex;
+}
+#monita{
+    background-color:#427d9d;
+    width: 685px;
+    display:flex;
+    height: 335px;
+    margin-top:30px;
+    margin-left:10px;
+    border-radius: 5%;
+}
+#texto p{
+    background-color: #9bbec8;
+    margin-left: 5px;
+    margin-top: 25px;
+    height:265px;
+    width:275px;
+    padding-left: 15px;
+    padding-top:20px;
+    line-height:37.5px;
+    font-size: 25px;
+    border-radius: 10%;
+}
+#pintura img{
+    width: 290px;
+    margin:10px
+}
+#izquierda{
+    position: fixed;
+    margin-top: 275px;
+    width: 80px;
+    height: 255px;
+}
+#flor1{
+    position: fixed;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 538px;
+    width: 175px;
+    height: 165px;
+}
+#idk{
+    position: fixed;
+    margin-left: 180px;
+    margin-top: 120px;
+    width:175px;
+    height: 165px;
+}
