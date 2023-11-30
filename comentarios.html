@@ -19,27 +19,26 @@
                     </div>
                 </div>
                 <div class="usuario-coment">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione unde optio hic est dolorem ipsum
-                    nam,
-                    quos
-                    debitis quasi omnis exercitationem repellendus esse ipsa natus repudiandae vero culpa fugiat
-                    eveniet.
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis quae libero ipsam, ducimus
+                        eaque nulla nemo. Quibusdam, explicabo numquam, repellat hic delectus molestiae cumque corporis
+                        quis accusantium doloremque, deserunt deleniti!</p>
                 </div>
-                <p class="corazao">♡♥</p>
+                <p onclick="corazao(this)" class="corazao">♥</p>
             </div>
         </section>
         <div id="my-comment">
             <div class="cont-info">
-                <input placeholder="Tu Nombre" type="text" name="" id="">
+                <input placeholder="Tu Nombre" type="text" name="" id="name">
             </div>
             <div id="start-content">
-                <button onclick="star(this)" class="star">✰</button>
-                <button onclick="star(this)" class="star">✰</button>
-                <button onclick="star(this)" class="star">✰</button>
-                <button onclick="star(this)" class="star">✰</button>
-                <button onclick="star(this)" class="star">★</button>
+                <button onclick="star(this)" class="star-no-select">★</button>
+                <button onclick="star(this)" class="star-no-select">★</button>
+                <button onclick="star(this)" class="star-no-select">★</button>
+                <button onclick="star(this)" class="star-no-select">★</button>
+                <button onclick="star(this)" class="star-no-select">★</button>
             </div>
-                <input placeholder="Tu Comentario" type="text" name="" id="coment">
+            <input placeholder="Tu Comentario" type="text" name="" id="coment">
+            <button onclick="publicar()" id="publi">Publicar</button>
         </div>
     </section>
 </body>
