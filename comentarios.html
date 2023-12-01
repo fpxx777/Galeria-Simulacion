@@ -6,7 +6,43 @@
     <link rel="stylesheet" href="comentarios.css">
     <title>Comentarios</title>
 </head>
+
 <body>
-    
+    <h1>Comentarios</h1>
+    <section id="cont-all">
+        <section id="coments">
+            <div class="comentario">
+                <div class="usuario-info">
+                    <p class="user">Jorgito</p>
+                    <div>
+                        <p class="star-coment">★★★★</p>
+                    </div>
+                </div>
+                <div class="usuario-coment">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis quae libero ipsam, ducimus
+                        eaque nulla nemo. Quibusdam, explicabo numquam, repellat hic delectus molestiae cumque corporis
+                        quis accusantium doloremque, deserunt deleniti!</p>
+                </div>
+                <p onclick="corazao(this)" class="corazao">♥</p>
+            </div>
+        </section>
+        <div id="my-comment">
+            <div class="cont-info">
+                <input placeholder="Tu Nombre" type="text" name="" class="text" id="name">
+            </div>
+            <div id="start-content">
+                <button onclick="star(this)" class="star-no-select">★</button>
+                <button onclick="star(this)" class="star-no-select">★</button>
+                <button onclick="star(this)" class="star-no-select">★</button>
+                <button onclick="star(this)" class="star-no-select">★</button>
+                <button onclick="star(this)" class="star-no-select">★</button>
+            </div>
+            <input placeholder="Tu Comentario" type="text" name="" class="text" id="coment">
+            <button onclick="publicar()" class="text" id="publi">Publicar</button>
+        </div>
+    </section>
 </body>
+<script src="comentarios.js">
+</script>
+
 </html>

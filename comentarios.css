@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #DDF2FD;
+}
+
+/*
+comentarios
+*/
+#coments {
+    margin: 2vw 0 0 1vw;
+}
+
+#cont-all {
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    background-color: #164863;
+    color: #DDF2FD;
+    text-align: center;
+    padding: 1vw 0 2vw 0;
+    margin-bottom: 4vw;
+    border-radius: 0 0 15vw 15vw;
+}
+
+.comentario {
+    background-color: #164863;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5vw;
+    color: #DDF2FD;
+    margin-bottom: 1.5vw;
+}
+
+.usuario-info {
+    display: flex;
+    flex-direction: row;
+    margin: 1vw 0 1vw 1vw;
+}
+
+.user{
+    font-weight: bold;
+    font-size: 1.5vw;
+    margin-right: 0.5vw;
+}
+
+.usuario-coment {
+    margin: 1vw;
+    font-size: 1vw;
+}
+
+.corazao {
+    display: flex;
+    justify-content: end;
+    font-size: xx-large;
+    margin-right: 1vw;
+    cursor: pointer;
+}
+.corazao2{
+    display: flex;
+    justify-content: end;
+    font-size: xx-large;
+    margin-right: 1vw;
+    color: #427D9D;
+    cursor: pointer;
+}
+
+/*
+Poner tu comentario
+*/
+#my-comment {
+    background-color: #164863;
+    display: flex;
+    flex-direction: column;
+    margin: 2vw 0 0 9vw;
+    width: 50vw;
+    height: 30vw;
+    border-radius: 1vw 0 0 1vw;
+}
+
+.star-select {
+    background-color: transparent;
+    border: none;
+    color: rgb(202, 212, 52);
+    font-size: 2.5vw;
+}
+
+.star-no-select {
+    background-color: transparent;
+    border: none;
+    color: #DDF2FD;
+    font-size: 2.5vw;
+}
+
+.cont-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.cont-info input {
+    margin: 2vw;
+    width: 15vw;
+    height: 2vw;
+    border: none;
+    padding: 0.5vw 0 0.5vw 0.5vw;
+}
+
+#coment {
+    margin: 2vw 0 0 2vw;
+    border: none;
+    width: 47vw;
+    padding: 1vw 0 10vw 1vw;
+}
+
+#start-content {
+    margin-left: 2vw;
+}
+
+.star-coment{
+    color: rgb(202, 212, 52);
+    font-size: 1.5vw;
+}
+
+.text{
+    font-size: 1vw;
+}
+
+#publi {
+    border: none;
+    background-color: #427D9D;
+    color: #DDF2FD;
+    margin: 0.5vw 36vw 0.5vw 2vw;
+    padding: 0.5vw 0 0.5vw 1vw;
+    text-align: start;
+}
