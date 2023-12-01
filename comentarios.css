@@ -11,12 +11,20 @@ body {
 comentarios
 */
 #coments {
-    margin: 1vw;
+    margin: 2vw 0 0 1vw;
 }
 
 #cont-all {
     display: flex;
     flex-direction: row;
+}
+h1{
+    background-color: #164863;
+    color: #DDF2FD;
+    text-align: center;
+    padding: 1vw 0 2vw 0;
+    margin-bottom: 4vw;
+    border-radius: 0 0 15vw 15vw;
 }
 
 .comentario {
@@ -26,6 +34,7 @@ comentarios
     flex-direction: column;
     border-radius: 0.5vw;
     color: #DDF2FD;
+    margin-bottom: 1.5vw;
 }
 
 .usuario-info {
@@ -34,8 +43,15 @@ comentarios
     margin: 1vw 0 1vw 1vw;
 }
 
+.user{
+    font-weight: bold;
+    font-size: 1.5vw;
+    margin-right: 0.5vw;
+}
+
 .usuario-coment {
     margin: 1vw;
+    font-size: 1vw;
 }
 
 .corazao {
@@ -61,24 +77,24 @@ Poner tu comentario
     background-color: #164863;
     display: flex;
     flex-direction: column;
-    margin: 2vw 0 0 6vw;
+    margin: 2vw 0 0 9vw;
     width: 50vw;
     height: 30vw;
-    border-radius: 1vw;
+    border-radius: 1vw 0 0 1vw;
 }
 
 .star-select {
     background-color: transparent;
     border: none;
     color: rgb(202, 212, 52);
-    font-size: xx-large;
+    font-size: 2.5vw;
 }
 
 .star-no-select {
     background-color: transparent;
     border: none;
     color: #DDF2FD;
-    font-size: xx-large;
+    font-size: 2.5vw;
 }
 
 .cont-info {
@@ -103,6 +119,15 @@ Poner tu comentario
 
 #start-content {
     margin-left: 2vw;
+}
+
+.star-coment{
+    color: rgb(202, 212, 52);
+    font-size: 1.5vw;
+}
+
+.text{
+    font-size: 1vw;
 }
 
 #publi {

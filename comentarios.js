@@ -6,12 +6,20 @@ function publicar() {
     if (user == "") { }
     if (coment == "") { }
     else {
-        document.getElementById("coments").innerHTML += `<div class="comentario"> <div class="usuario-info"> <p>${user}</p> <div> <p>${star(lastStar)}</p></div></div ><div class="usuario-coment"><p>${coment}</p></div><p onclick="corazao(this)" class="corazao">♥</p></div >`;
+        document.getElementById("coments").innerHTML += `<div class="comentario"> <div class="usuario-info"> <p class="user">${user}</p> <div> <p class="star-coment">${starUser(lastStar)}</p></div></div ><div class="usuario-coment"><p>${coment}</p></div><p onclick="corazao(this)" class="corazao">♥</p></div >`;
         document.getElementById("coment").value = "";
         document.getElementById("name").value = "";
         star(0);
     }
 
+}
+function starUser(element){
+    var starCount = "";
+    for(var i = 0; i <= element; i++){
+        starCount += "★"
+        console.log("si")
+    }
+    return starCount;
 }
 function star(element) {
     var content = document.getElementById("start-content");
