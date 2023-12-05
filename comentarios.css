@@ -5,9 +5,8 @@
 #tooo{
     display: block;
     background-color: #164863;
-    width: 700px;
-    height: 800px;
-    margin-left: 100px;
+    width: 100vw;
+    height: 132vw;
     margin-top: 100px;
 }
 #tooo2{
@@ -15,47 +14,70 @@
 }
 #monita{
     background-color:#427d9d;
-    width: 685px;
+    width: 94.5vw;
     display:flex;
-    height: 335px;
-    margin-top:30px;
-    margin-left:10px;
+    height: 54vw;
+    margin-top:6vw;
+    margin-left:4.5vw;
     border-radius: 5%;
 }
 #texto p{
     background-color: #9bbec8;
-    margin-left: 5px;
-    margin-top: 25px;
-    height:265px;
-    width:275px;
-    padding-left: 15px;
-    padding-top:20px;
-    line-height:37.5px;
-    font-size: 25px;
+    margin-left: 1vw;
+    margin-top: 6.5vw;
+    height:35vw;
+    width:34vw;
+    padding-left: 4vw;
+    padding-top:3.5vw;
+    line-height:6vw;
+    font-size: 4vw;
     border-radius: 10%;
 }
 #pintura img{
-    width: 290px;
-    margin:10px
+    width: 45vw;
+    margin: 2.25vw
 }
-#izquierda{
-    position: fixed;
-    margin-top: 275px;
-    width: 80px;
-    height: 255px;
-}
-#flor1{
-    position: fixed;
+#chao{
     display: flex;
-    margin-top: 20px;
-    margin-left: 538px;
-    width: 175px;
-    height: 165px;
+    justify-content: center;
 }
-#idk{
-    position: fixed;
-    margin-left: 180px;
-    margin-top: 120px;
-    width:175px;
-    height: 165px;
+#diablo{
+    background-color: #ddf2fd;
+    margin-left: 1vw;
+    margin-top: 6.5vw;
+    height:37.5vw;
+    width:34vw;
+    padding-left: 4vw;
+    padding-top:3.5vw;
+    line-height:6vw;
+    font-size: 4vw;
+    border-radius: 10%;
+}
+#diablo2{
+    background-color: #9bbec8;
+    margin-left: 8.75vw;
+    margin-top: 19.5vw;
+    height:37.5vw;
+    width:34vw;
+    padding-left: 4vw;
+    padding-top:3.5vw;
+    line-height:6vw;
+    font-size: 4vw;
+    border-radius: 10%;
+}
+#diablo h1{
+font-size: 4vw;
+}
+#diablo p{
+    margin-top: 3vw;
+font-size: 3vw;
+line-height: 4vw;
+}
+#diablo2 h1{
+    font-size: 4vw;
+}
+#diablo2 p{
+    margin-top: 3vw;
+font-size: 3vw;
+line-height: 4vw;
 }
